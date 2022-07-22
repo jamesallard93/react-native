@@ -3,7 +3,7 @@ import { Avatar, ListItem } from "react-native-elements";
 import { useState } from "react";
 import { CAMPSITES } from "../shared/campsites";
 
-const DirectoryScreen = ({navigation}) => {
+const DirectoryScreen = ({ navigation }) => {
   const [campsites, setCampsites] = useState(CAMPSITES);
 
   const renderDirectoryItem = ({ item: campsite }) => {
