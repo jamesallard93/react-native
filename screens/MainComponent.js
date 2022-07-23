@@ -1,12 +1,12 @@
 import { Platform, View } from "react-native";
 import Constants from "expo-constants";
-import CampsiteInfoScreen from "./CampsiteinfoScreen";
+import CampsiteInfoScreen from "./CampsiteInfoScreen";
 import DirectoryScreen from "./DirectoryScreen";
 import { createStackNavigator } from "@react-navigation/stack";
 import { createDrawerNavigator } from "@react-navigation/drawer";
 import HomeScreen from "./HomeScreen";
 
-const Drawer = createStackNavigator();
+const Drawer = createDrawerNavigator();
 
 const screenOptions = {
   headerTintColor: "#fff",
